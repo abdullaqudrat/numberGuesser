@@ -1,0 +1,79 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.header {
+  padding: 60px;
+  background: #404041;
+  font-size: 90px;
+}
+
+.first-title {
+  color: #ED458B;
+  font-weight: 700;
+  display: inline;
+}
+
+.second-title {
+  color: #E6E7E8;
+  display: inline;
+}
+
+.user-input-box {
+  margin-top: 40px
+}
+
+.user-input {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 70px;
+  width: 700px;
+  height: 100px;
+}
+
+.input-buttons {
+  margin-top: 40px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 35px;
+  background-color: #929497;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+button.guess {
+  margin-right: 50px;
+}
+
+button.clear {
+  margin-left: 50px;
+}
+
+.recent-message-box {
+  margin-top: 80px;
+  font-size: 35px;
+}
+
+div.recent {
+  font-size: 200px;
+  color: #EB008B;
+}
+
+
+button.reset {
+  width: 700px;
+  margin-top: 80px;
+}
+
+button:hover {
+  background-color: #EB008B;
+}
+
+button:disabled {
+  background-color: #D0D2D3;
+}
