@@ -46,6 +46,16 @@ button {
   font-size: 20px;
 }
 
+button.select {
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  border-radius: 35px;
+  background-color: #929497;
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
 button.guess {
   margin-right: 50px;
 }
@@ -76,4 +86,23 @@ button:hover {
 
 button:disabled {
   background-color: #D0D2D3;
+}
+
+.error-message {
+  display: inline-block;
+  color: red;
+}
+
+.range-error {
+  display: inline-block;
+  color: red;
+}
+
+.range-ex {
+  display: inline-block;
+  color: red;
+}
+
+.hide {
+  display: none;
 }
