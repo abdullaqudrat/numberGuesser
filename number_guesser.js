@@ -154,12 +154,6 @@ selectButton.addEventListener('click', function () {
   checkValid();
 });
 
-input.addEventListener('keyup', function (event) {
-  checkInput(event.target.value);
-  checkEmpty(event.target.value);
-  checkRange(event.target.value);
-})
-
 function restart() {
   input.value = '';
   minInput.value = '';
