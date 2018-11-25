@@ -89,17 +89,14 @@ button:disabled {
 }
 
 .error-message {
-  display: inline-block;
   color: red;
 }
 
 .range-error {
-  display: inline-block;
   color: red;
 }
 
 .range-ex {
-  display: inline-block;
   color: red;
 }
 
