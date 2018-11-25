@@ -10,22 +10,38 @@
       <div class="first-title">Number</div>
       <div class="second-title">Guesser</div>
     </div>
-
+        
+    <h2><div class="range"></div></h2>
+    <h4>or select a range</h4>
+    <div class='range-input-box'>
+      <input class='min-input' placeholder="min">
+      <input class='max-input' placeholder="max">
+      <button type="submit" class="select" disabled='true'>select</button>
+    </div>
+    <div class="range-ex hide"></div>
+    
+    <div class="error-message hide">please enter a number</div>
+    <div class="range-error hide"></div>
+    
+    
     <div class='user-input-box'>
-      <input type="number" class='user-input' placeholder="Enter your guess">
+      <input class='user-input' id='user-input' placeholder="Enter your guess">
     </div>
-
+    
     <div class="input-buttons">
-      <button type="submit" class="guess">Guess</button>
-      <button type="reset" class="clear">Clear</button>
+      <button type="submit" class="guess" disabled='true'>Guess</button>
+      <button type="reset" class="clear" disabled='true'>Clear</button>
     </div>
-
+    
     <div class="recent-message-box">
       <div class="was">Your last guess was</div>
       <div class="recent"></div>
       <div class="message"></div>
     </div>
-      <button type="reset" class="reset">Reset</button>
+    <button type="reset" class="reset">Reset</button>
+    
+    
+    
       <script type="text/javascript" src="number_guesser.js"></script>
   </body>
 </HTML>
